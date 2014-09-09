@@ -42,10 +42,13 @@
         </value-param>
 
         <object-param>
+          <!-- You must define here the portlet Name -->
           <name>helloPortlet</name>
           <description>sample hello portlet</description>
           <object type="org.exoplatform.commons.addons.PortletModel">
             <field name="contentId">
+              <!-- In the container definition within your jar you have added a new container : sampleDynamicContainer
+              This container will contain the targeted portlet helloPortlet. -->
               <string>sampleDynamicContainer/helloPortlet</string>
             </field>
             <!--The following values are optionals-->
