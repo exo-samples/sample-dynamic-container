@@ -41,7 +41,7 @@
   </dependencies>
 
   <build>
-    <finalName>sampleAddOn</finalName>
+    <finalName>sampleDynamicContainer</finalName>
   </build>
 
 </project>

@@ -11,7 +11,7 @@
       <mime-type>text/html</mime-type>
     </supports>
     <portlet-info>
-      <title>Simple Hello Portlet</title>
+      <title>Sample Hello Portlet</title>
     </portlet-info>
   </portlet>
 </portlet-app>
